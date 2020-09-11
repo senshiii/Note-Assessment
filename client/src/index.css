@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.toggleLine{
+  text-decoration: line-through;
+  color: rgb(126, 126, 126);
+}

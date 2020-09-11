@@ -1,14 +1,14 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const NoteSchema = mongoose.Schema(
-	{
-        autho: String,
-        pages: Array,
-        pageCount: Number,
-	},
-	{
-		timestamps: true
-	}
+  {
+		title: String,
+    time: Number,
+    blocks: Array 
+  },
+  {
+    timestamps: true,
+  }
 );
 
-module.exports = mongoose.model('Note', NoteSchema);
+module.exports = mongoose.model("Note", NoteSchema);
